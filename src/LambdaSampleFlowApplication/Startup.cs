@@ -22,6 +22,7 @@ namespace LambdaSampleFlowApplication
             Configuration = configuration;
         }
 
+
         public static IConfiguration Configuration { get; private set; }
 
         // This method gets called by the runtime. Use this method to add services to the container
@@ -31,6 +32,12 @@ namespace LambdaSampleFlowApplication
             services.AddScoped<ISecurityDepRepository, StubSecurityDepRepository>();
             services.AddScoped<ISourceDepRepository, StubSourceDepRepository>();
             services.AddControllers();
+            services.AddCors(c => 
+                            {
+                                c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin());
+                            });
+
+            services.AddRazorPages();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline
@@ -44,7 +51,7 @@ namespace LambdaSampleFlowApplication
             app.UseHttpsRedirection();
 
             app.UseRouting();
-
+            app.UseCors(options => options.AllowAnyOrigin());
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
@@ -55,6 +62,7 @@ namespace LambdaSampleFlowApplication
                     await context.Response.WriteAsync("Welcome to running ASP.NET Core on AWS Lambda");
                 });
             });
+            
         }
     }
 }
