@@ -29,6 +29,7 @@ namespace LambdaSampleFlowApplication
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddScoped<ISampleRepository, StubSampleRepository>();
+            services.AddScoped<ITeamRepository, StubTeamRepository>();
             services.AddScoped<ISecurityDepRepository, StubSecurityDepRepository>();
             services.AddScoped<ISourceDepRepository, StubSourceDepRepository>();
             services.AddControllers();

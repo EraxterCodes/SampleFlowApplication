@@ -8,6 +8,6 @@ namespace Repos
     {
         Task<ICollection<Sample>> ReadAllSamplesAsync();
         Task<ICollection<Sample>> ReadAllSamplesAsync(string teamid);
-        Task<Sample> ReadAsync(string sampleid);
+        Task<ICollection<Sample>> ReadAsync(string sampleid);
     }
 }

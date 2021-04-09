@@ -7,13 +7,13 @@ namespace Repos
 {
     public class StubTeamRepository : ITeamRepository
     {        
-        public async Task<ICollection<Team>> ReadAllTeamsAsync()
+        public async Task<ICollection<Team>> ReadAllTeamsAsync() //Returns all Teams async
         {
-            return await Task.Run(() => Team.stubs()); //Returns all Teams
+            return await Task.Run(() => Team.stubs()); 
         }
-        public async Task<Team> ReadAsync(string TeamId)
+        public async Task<Team> ReadAsync(string TeamId) // Inputs: A team id. Outputs: A Team object based on team id. 
         {
-            return await Task.Run(() => Team.getTeamById(TeamId, Team.stubs()));       // Return a specific Team 
+            return await Task.Run(() => Team.getTeamById(TeamId, Team.stubs()));      
         }
     }
 }

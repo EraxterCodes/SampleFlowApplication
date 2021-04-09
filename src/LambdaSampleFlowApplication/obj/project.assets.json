@@ -492,24 +492,26 @@
     ]
   },
   "packageFolders": {
-    "/Users/benjamin/.nuget/packages/": {}
+    "C:\\Users\\Oliver\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/benjamin/Desktop/ITUGit/SampleFlowApplication/src/LambdaSampleFlowApplication/LambdaSampleFlowApplication.csproj",
+      "projectUniqueName": "D:\\GitProjects\\WebApiNovo\\LambdaSampleFlowApplication\\src\\LambdaSampleFlowApplication\\LambdaSampleFlowApplication.csproj",
       "projectName": "LambdaSampleFlowApplication",
-      "projectPath": "/Users/benjamin/Desktop/ITUGit/SampleFlowApplication/src/LambdaSampleFlowApplication/LambdaSampleFlowApplication.csproj",
-      "packagesPath": "/Users/benjamin/.nuget/packages/",
-      "outputPath": "/Users/benjamin/Desktop/ITUGit/SampleFlowApplication/src/LambdaSampleFlowApplication/obj/",
+      "projectPath": "D:\\GitProjects\\WebApiNovo\\LambdaSampleFlowApplication\\src\\LambdaSampleFlowApplication\\LambdaSampleFlowApplication.csproj",
+      "packagesPath": "C:\\Users\\Oliver\\.nuget\\packages\\",
+      "outputPath": "D:\\GitProjects\\WebApiNovo\\LambdaSampleFlowApplication\\src\\LambdaSampleFlowApplication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/benjamin/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Oliver\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -551,7 +553,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

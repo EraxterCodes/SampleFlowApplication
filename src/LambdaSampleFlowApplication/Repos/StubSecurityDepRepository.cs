@@ -7,11 +7,11 @@ namespace Repos
 {
     public class StubSecurityDepRepository : ISecurityDepRepository
     {        
-        public async Task<ICollection<SecurityDepartment>> ReadAllSecurityDepsAsync()
+        public async Task<ICollection<SecurityDepartment>> ReadAllSecurityDepsAsync() //outputs : Returns all SecurityDepartment
         {
-            return await Task.Run(() => SecurityDepartment.stubs()); //Returns all SecurityDeps
+            return await Task.Run(() => SecurityDepartment.stubs()); 
         }
-        public async Task<SecurityDepartment> ReadAsync(string securityDepId)
+        public async Task<SecurityDepartment> ReadAsync(string securityDepId) // Inputs : a SourceDepartment ID Outputs: Return a specific Source Department
         {
                 return await Task.Run(() => SecurityDepartment.getSecurityDepByName(securityDepId, SecurityDepartment.stubs()));       // Return a specific SecurityDep 
         }

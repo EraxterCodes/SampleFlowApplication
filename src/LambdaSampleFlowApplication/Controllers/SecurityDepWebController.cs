@@ -19,13 +19,13 @@ namespace WebApiNovo.Controllers
         }
         
         [HttpGet]
-        public async Task<ICollection<SecurityDepartment>> GetAll()
+        public async Task<ICollection<SecurityDepartment>> GetAll() //Outputs a list of all SecurityDepartments as JSON
         {
             return await _SecurityDepRepository.ReadAllSecurityDepsAsync();
         }        
 
         [HttpGet("{id}")]
-        public async Task<SecurityDepartment> GetSecurityDepbyId(String id)
+        public async Task<SecurityDepartment> GetSecurityDepbyId(String id) //Inputs : A SecurityDepartment ID. Outputs:The SecurityDepartment as JSON
         {
             return await _SecurityDepRepository.ReadAsync(id);
         }
