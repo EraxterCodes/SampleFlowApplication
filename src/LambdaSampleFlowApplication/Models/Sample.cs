@@ -126,22 +126,22 @@ public class Sample
 
             new Sample
             {
-                SampleId = "S-20200822-00020",
-                ParamListId = "222325_Sema-GIP",
+                SampleId = "S-20200822-00028",
+                ParamListId = "B212-11_Sema-GIP",
                 ModificationDate = new ModificationDate
                 {
-                    AUDITSEQUENCE = 7,
+                    AUDITSEQUENCE = 8,
                     status = Enum.Received,
-                    MODDT = new DateTime(),
-                    COLLECTIONDT = new DateTime(),
-                    RECEIVEDDT = new DateTime(),
-                    CREATEDT = new DateTime(),
-                    COMPLETEDT = new DateTime(),
-                    SUBMITTEDDT = new DateTime(),
-                    REVIEWEDDT = new DateTime()
+                    MODDT = new DateTime(2020,8,27,12,32,0),
+                    COLLECTIONDT = new DateTime(2020,8,24,8,55,0),
+                    RECEIVEDDT = new DateTime(2020,8,24,11,22,0),
+                    CREATEDT = new DateTime(2020,8,22),
+                    COMPLETEDT = new DateTime(2021,1,20,13,20,0),
+                    SUBMITTEDDT = new DateTime(2020,8,24,10,12,0),
+                    REVIEWEDDT = null
                 },
                 Team = Team.stub(),
-                QCBatchId = "QB-20200825-00188",
+                QCBatchId = "QB-20200909-00409",
                 ProductName = "OW GIP ratio 2:2 mg/ml Sema:GIP in 3 ml Cartridge"
             }
         };

@@ -4,7 +4,9 @@ public class SourceDepartment
 {
     public string Classification {get; set;} // Sample type in all caps INDATA
 
-    public string SourceDepartmentId {get; set;} // Formerly U_SourceDept
+    public string LimsID {get; set;} // Formerly U_SourceDept
+
+    public string SourceDepartmentId {get; set;} // Formerly organisationaldepartmentsource
 
     public static SourceDepartment getSourceDepartmentById(string dept_id, ICollection<SourceDepartment> SourceDepList)
     {
@@ -19,9 +21,7 @@ public class SourceDepartment
     public static ICollection<SourceDepartment> stubs()
     {
         return new List<SourceDepartment> {
-            new SourceDepartment { Classification = "4355", SourceDepartmentId = "c17"},
-            new SourceDepartment { Classification = "1337", SourceDepartmentId = "c17"},
-            new SourceDepartment { Classification = "0420", SourceDepartmentId = "c17"}
+            new SourceDepartment { Classification = "Stability", LimsID = "c17",SourceDepartmentId = "433" },
         };
     }
 }

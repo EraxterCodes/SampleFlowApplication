@@ -4,6 +4,8 @@ public class SecurityDepartment
 {
     public string name { get; set; }
 
+    public string LimsID { get; set; }
+
     public ICollection<Team> teams { get; set; }
 
     Team getTeam(string team_id)
@@ -13,7 +15,7 @@ public class SecurityDepartment
 
     public static SecurityDepartment stub()
     {
-        return new SecurityDepartment { name = "4355", teams = {Team.stub()}};
+        return new SecurityDepartment { name = "3533", teams = {Team.stub()}};
     }
 
     public static ICollection<SecurityDepartment> stubs()
