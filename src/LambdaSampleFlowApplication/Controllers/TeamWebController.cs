@@ -20,7 +20,7 @@ namespace WebApiNovo.Controllers
         }
         
         [HttpGet]
-        public async Task<ICollection<Team>> GetAll()
+        public async Task<ICollection<Team>> GetAll() //Outputs a list of all Samples as JSON
         {
             return await _teamRepository.ReadAllTeamsAsync();
         }
@@ -28,7 +28,7 @@ namespace WebApiNovo.Controllers
         // Test URL: api/teams/S-20200822-00025
 
         [HttpGet("{id}")]
-        public async Task<Team> GetTeambyId(String id)
+        public async Task<Team> GetTeambyId(String id) //Inputs : A Team ID. Outputs:The Team as JSON
         {
             return await _teamRepository.ReadAsync(id);
         }
