@@ -27,7 +27,7 @@ public class SecurityDepartment
         };
     }
 
-    public static SecurityDepartment getSecurityDepByName(string name, ICollection<SecurityDepartment> securityDepList)
+    public static SecurityDepartment getSecurityDepById(string name, ICollection<SecurityDepartment> securityDepList)
     {
         foreach (var s in securityDepList)
         {

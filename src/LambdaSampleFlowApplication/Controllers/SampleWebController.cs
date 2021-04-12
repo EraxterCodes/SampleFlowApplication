@@ -30,9 +30,9 @@ namespace WebApiNovo.Controllers
         public async Task<ICollection<Sample>> GetSamplebyId(String id) //Inputs : A Sample ID. Outputs:The Sample as JSON
         {
             return await _sampleRepository.ReadAsync(id);
-
-        // Test URL: api/samples/team/1
+            // Test URL: api/samples/team/1
         }
+
         [HttpGet("team/{id}")]
         public async Task<ICollection<Sample>> GetSamplesbyTeamId(String id)//Inputs : A Team ID. Outputs:ALl samples belonging to that team.
         {

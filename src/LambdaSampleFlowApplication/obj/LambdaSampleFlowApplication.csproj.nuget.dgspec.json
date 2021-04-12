@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitProjects\\WebApiNovo\\LambdaSampleFlowApplication\\src\\LambdaSampleFlowApplication\\LambdaSampleFlowApplication.csproj": {}
+    "E:\\GitHub\\SampleFlowApplication\\src\\LambdaSampleFlowApplication\\LambdaSampleFlowApplication.csproj": {}
   },
   "projects": {
-    "D:\\GitProjects\\WebApiNovo\\LambdaSampleFlowApplication\\src\\LambdaSampleFlowApplication\\LambdaSampleFlowApplication.csproj": {
+    "E:\\GitHub\\SampleFlowApplication\\src\\LambdaSampleFlowApplication\\LambdaSampleFlowApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitProjects\\WebApiNovo\\LambdaSampleFlowApplication\\src\\LambdaSampleFlowApplication\\LambdaSampleFlowApplication.csproj",
+        "projectUniqueName": "E:\\GitHub\\SampleFlowApplication\\src\\LambdaSampleFlowApplication\\LambdaSampleFlowApplication.csproj",
         "projectName": "LambdaSampleFlowApplication",
-        "projectPath": "D:\\GitProjects\\WebApiNovo\\LambdaSampleFlowApplication\\src\\LambdaSampleFlowApplication\\LambdaSampleFlowApplication.csproj",
-        "packagesPath": "C:\\Users\\Oliver\\.nuget\\packages\\",
-        "outputPath": "D:\\GitProjects\\WebApiNovo\\LambdaSampleFlowApplication\\src\\LambdaSampleFlowApplication\\obj\\",
+        "projectPath": "E:\\GitHub\\SampleFlowApplication\\src\\LambdaSampleFlowApplication\\LambdaSampleFlowApplication.csproj",
+        "packagesPath": "C:\\Users\\Robert\\.nuget\\packages\\",
+        "outputPath": "E:\\GitHub\\SampleFlowApplication\\src\\LambdaSampleFlowApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Oliver\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Robert\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     }

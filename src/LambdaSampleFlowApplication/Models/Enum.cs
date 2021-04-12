@@ -1,4 +1,4 @@
  public enum Enum
 {
-    Intial, InProgress, Received, Completed, Reviewed
+    Initial, InProgress, Received, Completed, Reviewed
 }

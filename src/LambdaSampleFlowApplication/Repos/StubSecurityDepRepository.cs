@@ -13,7 +13,7 @@ namespace Repos
         }
         public async Task<SecurityDepartment> ReadAsync(string securityDepId) // Inputs : a SourceDepartment ID Outputs: Return a specific Source Department
         {
-                return await Task.Run(() => SecurityDepartment.getSecurityDepByName(securityDepId, SecurityDepartment.stubs()));       // Return a specific SecurityDep 
+            return await Task.Run(() => SecurityDepartment.getSecurityDepById(securityDepId, SecurityDepartment.stubs()));       // Return a specific SecurityDep 
         }
     }
 }

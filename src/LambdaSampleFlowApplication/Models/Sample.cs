@@ -112,7 +112,7 @@ public class Sample
                     AUDITSEQUENCE = 7,
                     status = Enum.Received,
                     MODDT = new DateTime(2020,8,24,11,12,0),
-                    COLLECTIONDT = new DateTime(2020,8,24,8,55,00),
+                    COLLECTIONDT = new DateTime(2020,8,24,8,55,0),
                     RECEIVEDDT = new DateTime(2020,8,24,11,22,0),
                     CREATEDT = new DateTime(2020,8,22),
                     COMPLETEDT = new DateTime(2021,1,20,13,20,0),
@@ -142,6 +142,27 @@ public class Sample
                 },
                 Team = Team.stub(),
                 QCBatchId = "QB-20200909-00409",
+                ProductName = "OW GIP ratio 2:2 mg/ml Sema:GIP in 3 ml Cartridge"
+            },
+
+            new Sample
+            {
+                SampleId = "S-20200822-00028",
+                ParamListId = "B307-10",
+                ModificationDate = new ModificationDate
+                {
+                    AUDITSEQUENCE = 4,
+                    status = Enum.Initial,
+                    MODDT = new DateTime(2020,8,24,8,55,23),
+                    COLLECTIONDT = new DateTime(2020,8,24,8,55,23),
+                    RECEIVEDDT = null,
+                    CREATEDT = new DateTime(2020,8,22,0,2,47),
+                    COMPLETEDT = new DateTime(2021,1,20,13,20,0),
+                    SUBMITTEDDT = null,
+                    REVIEWEDDT = null
+                },
+                Team = Team.stub(),
+                QCBatchId = "QB-20200825-00188",
                 ProductName = "OW GIP ratio 2:2 mg/ml Sema:GIP in 3 ml Cartridge"
             }
         };

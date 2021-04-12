@@ -28,6 +28,7 @@ namespace LambdaSampleFlowApplication
         // This method gets called by the runtime. Use this method to add services to the container
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<IQCBatchRepository, StubQCBatchDepRepository>();
             services.AddScoped<ISampleRepository, StubSampleRepository>();
             services.AddScoped<ITeamRepository, StubTeamRepository>();
             services.AddScoped<ISecurityDepRepository, StubSecurityDepRepository>();
