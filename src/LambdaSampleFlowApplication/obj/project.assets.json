@@ -492,26 +492,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Robert\\.nuget\\packages\\": {}
+    "C:\\Users\\OIHJ\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\GitHub\\SampleFlowApplication\\src\\LambdaSampleFlowApplication\\LambdaSampleFlowApplication.csproj",
+      "projectUniqueName": "C:\\GitProjects\\SampleFlowApplication\\src\\LambdaSampleFlowApplication\\LambdaSampleFlowApplication.csproj",
       "projectName": "LambdaSampleFlowApplication",
-      "projectPath": "E:\\GitHub\\SampleFlowApplication\\src\\LambdaSampleFlowApplication\\LambdaSampleFlowApplication.csproj",
-      "packagesPath": "C:\\Users\\Robert\\.nuget\\packages\\",
-      "outputPath": "E:\\GitHub\\SampleFlowApplication\\src\\LambdaSampleFlowApplication\\obj\\",
+      "projectPath": "C:\\GitProjects\\SampleFlowApplication\\src\\LambdaSampleFlowApplication\\LambdaSampleFlowApplication.csproj",
+      "packagesPath": "C:\\Users\\OIHJ\\.nuget\\packages\\",
+      "outputPath": "C:\\GitProjects\\SampleFlowApplication\\src\\LambdaSampleFlowApplication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Robert\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\OIHJ\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -553,7 +551,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

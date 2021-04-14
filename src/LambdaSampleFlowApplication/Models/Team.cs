@@ -8,15 +8,14 @@ public class Team
 
     public static Team stub()
     {
-        return new Team { TeamId = "1", Methods = new List<string> { "method1, method2" } };
+        return new Team { TeamId = "3533_01", Methods = new List<string> { "B307-10", "222325_Sema-GIP" }};
     }
 
     public static ICollection<Team> stubs()
     {
         return new List<Team> {
-            new Team { TeamId = "1", Methods = new List<string> { "method1, method2" } },
-            new Team { TeamId = "2", Methods = new List<string> { "method23, method21" } },
-            new Team { TeamId = "3", Methods = new List<string> { "method42, method17" } }
+            new Team { TeamId = "3533_01", Methods = new List<string> { "B307-10", "222325_Sema-GIP" } },
+            new Team { TeamId = "3533_02", Methods = new List<string> { "B212-11_Sema-GIP", "B307-10","B410-10_Phenol" } }
         };
     }
 

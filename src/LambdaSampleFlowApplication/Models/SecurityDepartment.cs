@@ -15,15 +15,13 @@ public class SecurityDepartment
 
     public static SecurityDepartment stub()
     {
-        return new SecurityDepartment { name = "3533", teams = {Team.stub()}};
+        return new SecurityDepartment { name = "3533",LimsID = "c25", teams = Team.stubs()};
     }
 
     public static ICollection<SecurityDepartment> stubs()
     {
         return new List<SecurityDepartment> {
-            new SecurityDepartment { name = "4355", teams = Team.stubs()},
-            new SecurityDepartment { name = "1337", teams = Team.stubs()},
-            new SecurityDepartment { name = "0420", teams = Team.stubs()}
+            new SecurityDepartment { name = "3533",LimsID = "c25", teams = Team.stubs()}
         };
     }
 
